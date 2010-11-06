@@ -158,6 +158,7 @@ module Gist
 
       else
         input = $stdin.read
+        files = [{:input => input}]
       end
 
       url = write(files, private_gist)
@@ -409,13 +410,13 @@ the quick brown fox jumps over the lazy dog
 .fi
 .
 .SH "BUGS"
-\fIhttp://github\.com/defunkt/gist/issues\fR
+\fIhttp://github\.com/indirect/gist/issues\fR
 .
 .SH "AUTHOR"
 Chris Wanstrath :: chris@ozmm\.org
 .
 .SH "SEE ALSO"
-hub(1), git(1), git\-clone(1), \fIhttp://github\.com\fR, \fIhttp://github\.com/defunkt/gist\fR
+hub(1), git(1), git\-clone(1), \fIhttp://github\.com\fR, \fIhttp://github\.com/indirect/gist\fR
 __CACERT__
 ##
 ## ca-bundle.crt -- Bundle of CA Root Certificates
