@@ -100,7 +100,7 @@ The following environment variables affect the execution of `gist`:
 
 ## BUGS
 
-<http://github.com/defunkt/gist/issues>
+<http://github.com/indirect/gist/issues>
 
 ## AUTHOR
 
@@ -110,4 +110,4 @@ Chris Wanstrath :: chris@ozmm.org
 
 hub(1), git(1), git-clone(1),
 <http://github.com>,
-<http://github.com/defunkt/gist>
+<http://github.com/indirect/gist>

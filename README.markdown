@@ -18,7 +18,7 @@ RubyGems:
 
 Old school:
 
-    curl -s http://github.com/defunkt/gist/raw/master/gist > gist &&
+    curl -s http://github.com/indirect/gist/raw/master/gist > gist &&
     chmod 755 gist &&
     mv gist /usr/local/bin/gist
 
@@ -86,11 +86,11 @@ Set the HTTP_PROXY env variable to use a proxy.
 Manual
 ------
 
-Visit <http://defunkt.github.com/gist/> or use:
+Visit <http://indirect.github.com/gist/> or use:
 
     $ gist -m
 
 Bugs
 ----
 
-<http://github.com/defunkt/gist/issues>
+<http://github.com/indirect/gist/issues>
