@@ -25,4 +25,6 @@ Gem::Specification.new do |s|
   arbitrary files. Can link to your GitHub account, create private gists,
   and enable syntax highlighting.
 desc
+
+  s.add_development_dependency "bundler", "~>1.0.14"
 end
