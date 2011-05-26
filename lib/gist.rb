@@ -93,7 +93,7 @@ module Gist
 
           files.push({
             :input     => File.read(file),
-            :filename  => file,
+            :filename  => File.basename(file),
             :extension => (File.extname(file) if file.include?('.'))
           })
         end
